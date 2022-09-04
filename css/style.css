@@ -19,10 +19,10 @@ html{
 }
 
 body,html {
-	background-color: #FFF;
+	background-color: #e3e3e3;
 }
 header {
-    background: #AEC6CF;
+    background: #414141;
     padding: 20px 30px;
     max-width: 940px;
     margin: auto;
@@ -92,7 +92,7 @@ address {
 }
 aside > div {
 	margin: 10px auto;
-	background: #AEC6CF;
+	background: #EEE;
 	min-height: 100px;
 }
 #cabecera {
@@ -101,6 +101,9 @@ aside > div {
     font-size: 30px;
     margin-right: 75px;
     color: #FFF;
+}
+.titulo{
+    text-align: center;
 }
 #logo img {
     width: 50px;
@@ -113,6 +116,7 @@ aside > div {
 .divImagen{
     display: block;
     margin: 0px auto;
+    border-radius: 30%;
 }
 footer{
     background: #414141;

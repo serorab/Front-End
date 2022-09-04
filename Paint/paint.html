@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <main class="main-container">
+        <h1 class="main-texto">Entraste a mi sitio secreto<br>¡Ahora crea tu dibujo!</h1>
+        <canvas id="canvas" width="800" height="500"></canvas><br>
+        <div>            
+        <input type="color" id="color" oninput="defcolor(this.value);">
+        <input type="range" id="grosor" oninput="defgrosor(this.value);" min="1" max="10" value="1">
+        </div>
+        <h3><a href="../index.html">Volver</a></h3>
+    </main>
+    <script src="js/codigo.js"></script>
+</body>
+</html>

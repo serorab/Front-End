@@ -31,16 +31,12 @@ nav {
     display: inline-block;
 }
 nav ul li a {
-    background: #EEE;
     padding: 2px 10px;
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
     color: #444;
     border-radius: 10px;
-}
-nav ul li a:hover {
-	background: #FFF;
 }
 nav ul li {
     display: inline-block;
@@ -74,8 +70,12 @@ article h2 {
 article p {
 	
 }
+
 main section {
 	
+}
+#presentacion{
+ text-align: center;
 }
 footer {
 	background: #AEC6CF;
@@ -95,13 +95,6 @@ aside > div {
 	background: #EEE;
 	min-height: 100px;
 }
-#cabecera {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 30px;
-    margin-right: 75px;
-    color: #FFF;
-}
 .titulo{
     text-align: center;
 }
@@ -119,7 +112,7 @@ aside > div {
     border-radius: 30%;
 }
 footer{
-    background: #414141;
+    background: #191818;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;

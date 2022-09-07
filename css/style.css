@@ -70,13 +70,27 @@ article h2 {
 article p {
 	
 }
-
+.titulo-superior{
+    text-align: center;
+    color: rgb(28, 20, 105);
+    font-size: xxx-large;
+}
+.texto-general{
+    font-size: larger;
+    text-align: center;
+}
+.texto-basico{
+    font-size: larger;
+}
+.bienvenida{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(28, 20, 105);
+}
 main section {
 	
 }
-#presentacion{
- text-align: center;
-}
+
 footer {
 	background: #AEC6CF;
 	max-width: 1000px;
@@ -93,7 +107,7 @@ address {
 aside > div {
 	margin: 10px auto;
 	background: #EEE;
-	min-height: 100px;
+	min-height: auto;
 }
 .titulo{
     text-align: center;
@@ -103,8 +117,8 @@ aside > div {
     vertical-align: middle;
     margin-right: 10px;
 }
-.divAsside{
-    text-align: center;
+.info-personal{
+    color:rgb(17, 12, 61);
 }
 .divImagen{
     display: block;

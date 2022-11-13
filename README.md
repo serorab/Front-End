@@ -1,2 +1,2 @@
 # Front-End
- Proyecto de práctica de HTML, Javascrip y Bootstrap
+ Proyecto de práctica de HTML, Javascript y Bootstrap

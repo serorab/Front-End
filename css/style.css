@@ -21,6 +21,18 @@ html{
 body,html {
 	background-color: #e3e3e3;
 }
+.container-imagenes{
+    display: flex;
+}
+.logo-top1{
+    margin-right: 10px;
+    width: 110px;
+    height: 60px;
+}
+.logo-top2{
+    width: 250px;
+    height: 60px;
+}
 header {
     background: #414141;
     padding: 20px 30px;
